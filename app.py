@@ -17,6 +17,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 nltk.download("punkt")
+nltk.download("punkt_tab")
 nltk.download("stopwords")
 
 # -------------------------------

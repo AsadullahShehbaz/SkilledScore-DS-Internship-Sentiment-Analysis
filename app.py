@@ -49,7 +49,7 @@ def preprocess(text):
 # -------------------------------
 def predict_with_nb(text, model):
     """Predict sentiment using Naive Bayes"""
-    prediction = model.predict(text)[0]
+    prediction = model.predict([text])[0]
     return prediction
 
 def predict_with_lstm(text, model, tokenizer, max_len=100):
